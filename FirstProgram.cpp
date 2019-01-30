@@ -20,9 +20,7 @@ int main(){
 	
 	cout << "Number of elements in the vector = " << numbers.size();
 	
-	while(counter <= 3){
-		numbers.pop_back();		
-	}/*End While*/
+	numbers.pop_back();	
 	
 	cout << "Number of elements in the vector after pop = " << numbers.size();
 	
