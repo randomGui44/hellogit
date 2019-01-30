@@ -19,7 +19,7 @@ int main(){
 	
 	cout << "Number of elements in the vector = " << numbers.size();
 	
-	numbers.empty();
+	numbers.pop_back();
 	
 	cout << "Number of elements in the vector after pop = " << numbers.size();
 	
