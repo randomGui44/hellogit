@@ -20,20 +20,19 @@ int main(){
 	
 	cout << "Number of elements in the vector = " << numbers.size();
 	
-	while(counter <= 6){
-		numbers.pop_back(counter);
+	while(counter <= 3){
+		numbers.pop_back();
 		counter++;
 	}/*End While*/
 	
-	
-	/*Demonstrates use of strings*/
-	
 	cout << "Number of elements in the vector after pop = " << numbers.size();
 	
-	string name = "Mike"
-	string name2 = "Ross"
+	/*Demonstrates use of strings*/	
 	
-	cout << name + " " + name2 + << " is a lawyer"<<;
+	string name = "Mike";
+	string name2 = "Ross";
+	
+	cout << name + " " + name2 + " is a lawyer";
 	
 	/*Prints each letter from the string 'name'*/
 	for(char letter : name)
@@ -43,5 +42,6 @@ int main(){
 	
 	for(auto counter2 : numbers)
 		cout<<counter2;
-	
+		
+	return 0;
 }/*End Main*/
