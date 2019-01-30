@@ -8,8 +8,7 @@ int main(){
 
 	/*Demonstartes use of vectors*/
 
-	int counter = 1;
-	int num;
+	int counter = 1;	
 	
 	vector <int> numbers;
 	
